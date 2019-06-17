@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tasty</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">take.and.eat</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="oi oi-menu"></span> Menu
+        </button>
+
+        <div class="collapse navbar-collapse" id="ftco-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a href="index.html" class="nav-link">Početna</a></li>
+            <li class="nav-item dropdown">
+				<a href="menu.html" class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Restaurants</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="#">Zvezdara</a>
+					<a class="dropdown-item" href="#">Vracar</a>
+					<a class="dropdown-item" href="#">Palilula</a>
+					<a class="dropdown-item" href="#">Rakovica</a>
+         		
+		    </li>
+			
+            <li class="nav-item"><a href="specialties.html" class="nav-link">Restorani</a></li>
+            <li class="nav-item"><a href="reservation.html" class="nav-link">Dostava</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link">O nama</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END nav -->
+    
+    <section class="home-slider owl-carousel">
+      <div class="slider-item" style="background-image: url('images/bg_3.jpg');" data-stellar-background-ratio="0.5">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row slider-text align-items-center justify-content-center">
+            <div class="col-md-10 col-sm-12 ftco-animate text-center">
+              <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>Back</span></p>
+              <h1 class="mb-3">Discover Our Exclusive Menu</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="ftco-section-reservation">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 reservation pt-5 px-5">
+            <div class="block-17">
+              <form action="" method="post" class="d-block d-lg-flex">
+                <div class="fields d-block d-lg-flex">
+
+                  <div class="textfield-fname one-third"><input type="text" class="form-control" placeholder="First Name"></div>
+				  <div class="textfield-lname one-third"><input type="text" class="form-control" placeholder="Last Name"></div>
+
+                  <div class="textfield-phone one-third"><input type="text" class="form-control" placeholder="Phone"></div>
+				  <div class="textfield-email one-third"><input type="text" class="form-control" placeholder="E-mail"></div>
+				  <div class="textfield-address one-third"><input type="text" class="form-control" placeholder="Address"></div> 
+
+                  <div class="select-wrap one-third">
+                    <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                    <select name="" id="" class="form-control">
+                      <option value="">Township</option>
+                      <option value="">Zvezdara</option>
+                      <option value="">Rakovica</option>
+                      <option value="">Vracar</option>
+                      <option value="">Savski venac</option>
+                    </select>
+                  </div>
+                </div>
+                <input type="submit" class="search-submit btn btn-primary" value="Confirm">  
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="ftco-section bg-light">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 text-center heading-section ftco-animate">
+            <span class="subheading">***</span>
+            <h2>Otkrijte jelovnik Voulez-Vous's Exclusive Menu</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 dish-menu">
+
+            <div class="nav nav-pills justify-content-center ftco-animate" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <a class="nav-link py-3 px-4 active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true"><span class="flaticon-roast-chicken"></span> Main</a>
+              <a class="nav-link py-3 px-4" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false"><span class="flaticon-chocolate"></span> Dessert</a>
+              <a class="nav-link py-3 px-4" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false"><span class="flaticon-cooking"></span> Breakfast</a>
+            </div>
+
+            <div class="tab-content py-5" id="v-pills-tabContent">
+              <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="menus d-flex ftco-animate">
+                      <div class="menu-img" style="background-image: url(images/Voulez-Vous-restoran-12-1.jpg);"></div>
+                      <div class="text d-flex">
+                        <div class="one-half">
+                          <h3>Royal Beef Burger</h3>
+                          <p><span>two burgers, pancetta, cheddar cheese, paprika with sour cream, iceberg lettuce, tomato, French fries, barbecue sauce</span></p>
+                        </div>
+                        <div class="one-forth">
+                          <span class="price">RSD 1090</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate">
+                      <div class="menu-img" style="background-image: url(images/Voulez-Vous-restoran-5-1.jpg);"></div>
+                      <div class="text d-flex">
+                        <div class="one-half">
+                          <h3>Roast Beef Al Forno</h3>
+                          <p><span>roast beef tagliata, spicy potato wedges, spinach, porcini mushrooms, three mustards sauce with horseradish, dill sauce and capers, tomato salsa with smoked peppers</span></p>
+                        </div>
+                        <div class="one-forth">
+                          <span class="price">RSD 1290</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate">
+                      <div class="menu-img" style="background-image: url(images/BR5A9363-2.jpg);"></div>
+                      <div class="text d-flex">
+                        <div class="one-half">
+                          <h3>Ribs (Glazed)</h3>
+                          <p><span>barbecue sauce</span></p>
+                        </div>
+                        <div class="one-forth">
+                          <span class="price">RSD 860</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate">
+                      <div class="menu-img" style="background-image: url(images/VVous-12.jpg);"></div>
+                      <div class="text d-flex">
+                        <div class="one-half">
+                          <h3>Burger Tower</h3>
+                          <p><span>6 floor tasty burgers (800g), topped with gouda cheese, barbeque sauce, french fries</span></p>
+                        </div>
+                        <div class="one-forth">
+                          <span class="price">RSD 2490</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate">
+                      <div class="menu-img" style="background-image: url(images/VoulezVous-10-2.jpg);"></div>
+                      <div class="text d-flex">
+                        <div class="one-half">
+                          <h3>Voulez-vous Pizza</h3>
+                          <p><span>pelati, pizza cheese, paprika, mushrooms, ham, speck, cheddar cheese, black olives, rocket salad</span></p>
+                        </div>
+                        <div class="one-forth">
+                          <span class="price">RSD 920</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <div class="menus d-flex ftco-animate">
+                      <div class="menu-img" style="background-image: url(images/VVous-13.jpg);"></div>
+                      <div class="text d-flex">
+                        <div class="one-half">
+                          <h3>Greek Pizza</h3>
+                          <p><span>pelati, pizza cheese, paprika, tomato, ham, kulen sausage, olives, feta cheese</span></p>
+                        </div>
+                        <div class="one-forth">
+                          <span class="price">RSD 890</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate">
+                      <div class="menu-img" style="background-image: url(images/85.jpg);"></div>
+                      <div class="text d-flex">
+                        <div class="one-half">
+                          <h3>Homemade Gnocchi With Quattro Formaggi Sauce 
+                            Tossed With Crispy Parmesan</h3>
+                          <p><span>gorgonzola, emmentaler, gouda, parmesan</span></p>
+                        </div>
+                        <div class="one-forth">
+                          <span class="price">RSD 699
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate">
+                      <div class="menu-img" style="background-image: url(images/58.jpg);"></div>
+                      <div class="text d-flex">
+                        <div class="one-half">
+                          <h3>Grilled Chicken Breast</h3>
+                          <p><span>spiced potato wedges</span></p>
+                        </div>
+                        <div class="one-forth">
+                          <span class="price">RSD 798</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate">
+                      <div class="menu-img" style="background-image: url(images/105.jpg);"></div>
+                      <div class="text d-flex">
+                        <div class="one-half">
+                          <h3>Chicken Salad With Ranch Dressing</h3>
+                          <p><span>grilled chicken breast, mixed green salad, rocket salad, radicchio, grilled zucchini, tomato, smoked cheese, hazelnut</span></p>
+                        </div>
+                        <div class="one-forth">
+                          <span class="price">RSD 729</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate">
+                      <div class="menu-img" style="background-image: url(images/108.jpg);"></div>
+                      <div class="text d-flex">
+                        <div class="one-half">
+                          <h3>Roast Beef (300g) Wrapped In Crispy Parmesan 
+                            And Porcini Mushrooms Crust</h3>
+                          <p><span>potatoes, green salad mix, blue cheese and prosciutto sauce
+                            specialy prepared with sous vide method</span></p>
+                        </div>
+                        <div class="one-forth">
+                          <span class="price">RSD 1290</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- END -->
+
+              <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="menus d-flex ftco-animate">
+                      <div class="menu-img" style="background-image: url(images/52.jpg);"></div>
+                      <div class="text d-flex">
+                        <div class="one-half">
+                          <h3>Diet Chocolate Mousse With Forest Fruit</h3>
+                          <p><span>sweetener fructose and stevia</span></p>
+                        </div>
+                        <div class="one-forth">
+                          <span class="price">RSD 369</span>
+						  <form name = "menuD">
+							  <div class="checkbox">
+								<label><input type="checkbox" value=""></label>
+							  </div>
+						  </form>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate">
+                      <div class="menu-img" style="background-image: url(images/BR5A6543.jpg);"></div>
+                      <div class="text d-flex">
+                        <div class="one-half">
+                          <h3>Bacio Italiano</h3>
+                          <p><span>chocolate ball filled with vanilla cream and oreo cookies</span>, <span>served on passion fruit and white chocolate mousse</span>, <span> topped with hot chocolate</span></p>
+                        </div>
+                        <div class="one-forth">
+                          <span class="price">RSD 499</span>
+						  <form name = "menuD">
+							  <div class="checkbox">
+								<label><input type="checkbox" value=""></label>
+							  </div>
+						  </form>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate">
+                      <div class="menu-img" style="background-image: url(images/60.jpg);"></div>
+                      <div class="text d-flex">
+                        <div class="one-half">
+                          <h3>Chelsea Cake</h3>
+                          <p><span>belgian chocolate and hazelnuts</span>, <span>ice cream vanilla</span>, <span>without flour and butter</span></p>
+                        </div>
+                        <div class="one-forth">
+                          <span class="price">RSD 369</span>
+						  <form name = "menuD">
+							  <div class="checkbox">
+								<label><input type="checkbox" value=""></label>
+							  </div>
+						  </form>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate">
+                      <div class="menu-img" style="background-image: url(images/97.jpg);"></div>
+                      <div class="text d-flex">
+                        <div class="one-half">
+                          <h3>White Lady</h3>
+                          <p><span>white chocolate mousse stuffed raspberries</span>, <span>pistachio</span>, <span>raspberry sorbet</span></p>
+                        </div>
+                        <div class="one-forth">
+                          <span class="price">RSD 499</span>
+						  <form name = "menuD">
+							  <div class="checkbox">
+								<label><input type="checkbox" value=""></label>
+							  </div>
+						  </form>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate">
+                      <div class="menu-img" style="background-image: url(images/51.jpg);"></div>
+                      <div class="text d-flex">
+                        <div class="one-half">
+                          <h3>Our Special-XXXL Dessert</h3>
+                          <p><span>sour cherry</span>, <span> caramel sauce</span>, <span>plazma biscuit</span>, <span> white chocolate mousse</span></p>
+                        </div>
+                        <div class="one-forth">
+                          <span class="price">RSD 529</span>
+						  <form name = "menuD">
+							  <div class="checkbox">
+								<label><input type="checkbox" value=""></label>
+							  </div>
+						  </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <div class="menus d-flex ftco-animate">
+                      <div class="menu-img" style="background-image: url(images/dessert-6.jpg);"></div>
+                      <div class="text d-flex">
+                        <div class="one-half">
+                          <h3>Biscotto Mousse</h3>
+                          <p><span>perfect blend of the finest belgian white chocolate mousse with pieces of crunchy biscuit</span>, <span>milk chocolate icing</span></p>
+                        </div>
+                        <div class="one-forth">
+                          <span class="price">RSD 499</span>
+						  <form name = "menuD">
+							  <div class="checkbox">
+								<label><input type="checkbox" value=""></label>
+							  </div>
+						  </form>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate">
+                      <div class="menu-img" style="background-image: url(images/VVous-18.jpg);"></div>
+                      <div class="text d-flex">
+                        <div class="one-half">
+                          <h3>Crepes</h3>
+                          <p><span>walnuts</span>, <span>honey</span>, <span>nutella</span>, <span>plazma biscuit</span>, <span>marmelade</span>, <span>sour cherry</span></p>
+                        </div>
+                        <div class="one-forth">
+                          <span class="price">RSD 280</span>
+						  <form name = "menuD">
+							  <div class="checkbox">
+								<label><input type="checkbox" value=""></label>
+							  </div>
+						  </form>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate">
+                      <div class="menu-img" style="background-image: url(images/v4.jpg);"></div>
+                      <div class="text d-flex">
+                        <div class="one-half">
+                          <h3>Crepes Voulez-vous</h3>
+                          <p><span>filled with aromatic apples</span>, <span>raisins</span>, <span>cranberries and cinnamon ragout</span></p>
+                        </div>
+                        <div class="one-forth">
+                          <span class="price">RSD 349</span>
+						  <form name = "menuD">
+							  <div class="checkbox">
+								<label><input type="checkbox" value=""></label>
+							  </div>
+						  </form>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate">
+                      <div class="menu-img" style="background-image: url(images/132.jpg);"></div>
+                      <div class="text d-flex">
+                        <div class="one-half">
+                          <h3>Fruit Plate</h3>
+                          <p><span>kiwi</span>, <span>pineapple</span>, <span>grapes</span>, <span>melon</span>,<span>bananans</span>, <span>apples</span>, <span>pears</span>, <span>orange</span>,<span>seasonal fruit</span>, <span>served with honey</span>, <span>raspberry sauce and passion fruit sauce</span></p>
+                        </div>
+                        <div class="one-forth">
+                          <span class="price">RSD 399</span>
+						  <form name = "menuD">
+							  <div class="checkbox">
+								<label><input type="checkbox" value=""></label>
+							  </div>
+						  </form>
+                        </div>
+                      </div>
+                    </div>
+       
+                  </div>
+                </div>
+              </div><!-- END -->
+
+              <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="menus d-flex ftco-animate">
+                      <div class="menu-img" style="background-image: url(images/DwnPd_qX4AAuyYb.jpg);"></div>
+                      <div class="text d-flex">
+                        <div class="one-half">
+                          <h3>Neighborhood Breakfast</h3>
+                          <p><span>cheese beignets</span>, <span>zucchini-cheese pancakes</span>, <span>beef ham</span>, <span>kajmak</span>, <span>voulez-vous ajvar</span>, <span>tzatziki</span></p>
+                        </div>
+                        <div class="one-forth">
+                          <span class="price">RSD 529</span>
+						  <form name = "menuB">
+							  <div class="checkbox">
+								<label><input type="checkbox" value=""></label>
+							  </div>
+						  </form>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate">
+                      <div class="menu-img" style="background-image: url(images/3041255.jpg);"></div>
+                      <div class="text d-flex">
+                        <div class="one-half">
+                          <h3>Diet Spelt Porridge With Aronia And Apples</h3>
+                          <p><span>stevia sweetener</span></p>
+                        </div>
+                        <div class="one-forth">
+                          <span class="price">RSD 319</span>
+						  <form name = "menuB">
+							  <div class="checkbox">
+								<label><input type="checkbox" value=""></label>
+							  </div>
+						  </form>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate">
+                      <div class="menu-img" style="background-image: url(images/103.jpg);"></div>
+                      <div class="text d-flex">
+                        <div class="one-half">
+                          <h3>Porridge</h3>
+                          <p><span>oats</span>, <span>minced linseed</span>, <span>blueberry</span>, <span>cinnamon</span>, <span>honey</span>, <span>almond</span></p>
+                        </div>
+                        <div class="one-forth">
+                          <span class="price">RSD 319</span>
+						  <form name = "menuB">
+							  <div class="checkbox">
+								<label><input type="checkbox" value=""></label>
+							  </div>
+						  </form>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate">
+                      <div class="menu-img" style="background-image: url(images/VVous-8.jpg);"></div>
+                      <div class="text d-flex">
+                        <div class="one-half">
+                          <h3>Homemade Frenchtoast Sandwich</h3>
+                          <p><span>white cheese</span>, <span>bacon</span>, <span>baked with eggs and cheese</span></p>
+                        </div>
+                        <div class="one-forth">
+                          <span class="price">RSD 529</span>
+						  <form name = "menuB">
+							  <div class="checkbox">
+								<label><input type="checkbox" value=""></label>
+							  </div>
+						  </form>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate">
+                      <div class="menu-img" style="background-image: url(images/2.jpg);"></div>
+                      <div class="text d-flex">
+                        <div class="one-half">
+                          <h3>English Breakfast</h3>
+                          <p><span>eggs</span>, <span>sausages</span>, <span>crispy bacon</span>, <span>toasted tomato</span>, <span>baked beans</span></p>
+                        </div>
+                        <div class="one-forth">
+                          <span class="price">RSD 379</span>
+						  <form name = "menuB">
+							  <div class="checkbox">
+								<label><input type="checkbox" value=""></label>
+							  </div>
+						  </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <div class="menus d-flex ftco-animate">
+                      <div class="menu-img" style="background-image: url(images/83.jpg);"></div>
+                      <div class="text d-flex">
+                        <div class="one-half">
+                          <h3>Chorizo &amp; Eggs</h3>
+                          <p><span>sunny side up eggs</span>, <span>young patatoes</span>, <span>finely chopped sausages</span>, <span>dried tomatoes</span>, <span>spinach</span>, <span>feta cheese</span></p>
+                        </div>
+                        <div class="one-forth">
+                          <span class="price">RSD 359</span>
+						  <form name = "menuB">
+							  <div class="checkbox">
+								<label><input type="checkbox" value=""></label>
+							  </div>
+						  </form>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate">
+                      <div class="menu-img" style="background-image: url(images/92.jpg);"></div>
+                      <div class="text d-flex">
+                        <div class="one-half">
+                          <h3>Eggs</h3>
+                          <p><span>omelette</span>, <span>scrambled eggs</span>, <span>sunny side up</span></p>
+                        </div>
+                        <div class="one-forth">
+                          <span class="price">RSD 359</span>
+						  <form name = "menuB">
+							  <div class="checkbox">
+								<label><input type="checkbox" value=""></label>
+							  </div>
+						  </form>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate">
+                      <div class="menu-img" style="background-image: url(images/VVous-4.jpg);"></div>
+                      <div class="text d-flex">
+                        <div class="one-half">
+                          <h3>Eggs Benedict</h3>
+                          <p><span>toast</span>, <span>ham</span>, <span>mayonnaise</span>, <span>spinach</span>, <span>white cheese</span>, <span>tomato</span></p>
+                        </div>
+                        <div class="one-forth">
+                          <span class="price">RSD 349</span>
+						  <form name = "menuB">
+							  <div class="checkbox">
+								<label><input type="checkbox" value=""></label>
+							  </div>
+						  </form>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="menus d-flex ftco-animate">
+                      <div class="menu-img" style="background-image: url(images/VoulezVous-4-2.jpg);"></div>
+                      <div class="text d-flex">
+                        <div class="one-half">
+                          <h3>Voulez-vous Omelette</h3>
+                          <p><span>prosciutto</span>, <span>ricotta cheese</span>, <span>mushrooms</span></p>
+                        </div>
+                        <div class="one-forth">
+                          <span class="price">RSD 379</span>
+						  <form name = "menuB">
+							  <div class="checkbox">
+								<label><input type="checkbox" value=""></label>
+							  </div>
+						  </form>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="instagram">
+      <div class="container-fluid">
+        <div class="row no-gutters justify-content-center pb-5">
+          <div class="col-md-7 text-center heading-section ftco-animate">
+            <h2><span>Instagram</span></h2>
+          </div>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-sm-12 col-md ftco-animate">
+            <a href="images/insta-1.jpg" class="insta-img image-popup" style="background-image: url(images/insta-1.jpg);">
+              <div class="icon d-flex justify-content-center">
+                <span class="icon-instagram align-self-center"></span>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-12 col-md ftco-animate">
+            <a href="images/insta-2.jpg" class="insta-img image-popup" style="background-image: url(images/insta-2.jpg);">
+              <div class="icon d-flex justify-content-center">
+                <span class="icon-instagram align-self-center"></span>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-12 col-md ftco-animate">
+            <a href="images/insta-3.jpg" class="insta-img image-popup" style="background-image: url(images/insta-3.jpg);">
+              <div class="icon d-flex justify-content-center">
+                <span class="icon-instagram align-self-center"></span>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-12 col-md ftco-animate">
+            <a href="images/insta-4.jpg" class="insta-img image-popup" style="background-image: url(images/insta-4.jpg);">
+              <div class="icon d-flex justify-content-center">
+                <span class="icon-instagram align-self-center"></span>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-12 col-md ftco-animate">
+            <a href="images/insta-5.jpg" class="insta-img image-popup" style="background-image: url(images/insta-5.jpg);">
+              <div class="icon d-flex justify-content-center">
+                <span class="icon-instagram align-self-center"></span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Tasty</h2>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft">
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+             <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Opening Hours</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-2 d-block">Monday: <span>08: - 22:00</span></a></li>
+                <li><a href="#" class="py-2 d-block">Tuesday: <span>08: - 22:00</span></a></li>
+                <li><a href="#" class="py-2 d-block">Wednesday: <span>08: - 22:00</span></a></li>
+                <li><a href="#" class="py-2 d-block">Thursday: <span>08: - 22:00</span></a></li>
+                <li><a href="#" class="py-2 d-block">Friday: <span>08: - 22:00</span></a></li>
+                <li><a href="#" class="py-2 d-block">Saturday: <span>08: - 22:00</span></a></li>
+                <li><a href="#" class="py-2 d-block">Sunday: <span>08: - 22:00</span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+             <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Contact Information</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-2 d-block">198 West 21th Street, Suite 721 New York NY 10016</a></li>
+                <li><a href="#" class="py-2 d-block">+ 1235 2355 98</a></li>
+                <li><a href="#" class="py-2 d-block">info@yoursite.com</a></li>
+                <li><a href="#" class="py-2 d-block">email@email.com</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Newsletter</h2>
+              <p>Far far away, behind the word mountains, far from the countries.</p>
+              <form action="#" class="subscribe-form">
+                <div class="form-group">
+                  <span class="icon icon-paper-plane"></span>
+                  <input type="text" class="form-control" placeholder="Subscribe">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
